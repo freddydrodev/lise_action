@@ -1,0 +1,7 @@
+#salesTab{
+  height: 300px;
+}
+#salesTab canvas {
+  /* background-color: rgba(127, 42, 255, 0.05); */
+  height: 300px;
+}

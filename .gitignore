@@ -1,0 +1,6 @@
+*.jpg
+.idea/
+test_scr.html
+test.html
+
+/vendor/

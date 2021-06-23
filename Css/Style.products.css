@@ -1,0 +1,150 @@
+.resume .progress{
+  height: 5px;
+}
+h1{
+  font-size: 5em;
+}
+h3{
+  font-size: 3em;
+  font-weight: 100;
+}
+h2{
+  font-size: 1em;
+}
+.search-products input{
+  background-color: rgba(0,0,0,.02);
+}
+.rounded-30{
+  border-radius: 30px;
+}
+.rounded-5{
+  border-radius: 5px;
+}
+
+ #productsList table button.btn:hover, #productsList table button.btn:focus, button.btn.sort.asc, button.btn.sort.desc {
+  background-color: rgba(0,0,0,.05);
+  box-shadow: none;
+}
+
+.slick-arrow:before{
+  color: black;
+}
+.border-bottom-1{
+  border-bottom: 1px solid #eee;
+}
+.img-prev-media{
+  width: 45px;
+}
+.rounded-3 {
+  border-radius: 3px;
+}
+
+.title > .col > div{
+  background-color: #E9ECEF;
+}
+
+.articleImg{
+  width:50px;
+}
+
+#categories-list .card-text{
+  height: 160px;
+}
+.card-body, .slick-slide{
+  transition: all ease-out .25s;
+}
+.slick-list:before, .slick-list:after{
+  content: '';
+  width:45px;
+  height: 100%;
+  background-color: #F5F7FA;
+  opacity: .8;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+}
+#list-order .slick-list:before, #list-order .slick-list:after{
+  background-color: transparent;
+}
+.slick-list:before{
+  left: 0;
+}
+.slick-list:after{
+  right: 0;
+}
+#categories-list .slick-slide{
+  opacity: .75;
+}
+#categories-list .slick-slide.slick-current {
+  transform: scale(1.1);
+  opacity: 1;
+}
+#categories-list .slick-current .card-body{
+  background-color: #7F2AFF;
+  box-shadow: 0 10px 20px rgba(127, 42, 255, .5);
+  color: white;
+  height: 315px;
+}
+#categories-list .slick-current .card-body .text-muted{
+  color: #C9CAFD !important;
+}
+#categories-list .slick-current .card-body .card-text{
+  height: 210px;
+  overflow: hidden;
+}
+#categories-list .slick-current .card-body .btn-primary{
+  background-color: #f8f9fa;
+  color: #111;
+}
+#categories-list .slick-current .card-body .badge-primary{
+  background-color: #FFA387;
+}
+
+/* orders */
+.order-serial {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  border-top: 1px dashed #ddd;
+}
+
+.order-item{
+  opacity: .33;
+  transition: opacity linear .3;
+}
+.order-item.slick-current{
+  opacity: 1;
+}
+.step-wrapper {
+  height: 420px;
+  overflow: hidden;
+}
+.order-form-step{
+  /* left: 100%; */
+  transition: all linear .3s;
+}
+.first-step {
+  left: -100%;
+}
+.second-step {
+  left: 100%;
+}
+.current-step {
+  left: 0;
+}
+.sugestion{
+  z-index: 100;
+}
+#addCommandeModal .modal-dialog{
+  width: 600px;
+}
+.order-form-product-added{
+
+}
+.order-form-product-added{
+  height: 320px;
+}
+.product-ordered-list{
+  height: 150px;
+}
+.suggested-people-wrapper{
+  z-index: 100;
+}
